@@ -1,11 +1,14 @@
 import { useState } from 'react'
 import './App.css'
+import InterviewPractice from './InterviewPractice'
 
 function App() {
 
+  
+
   return (
     <>
-    <div className='text-3xl text-blue-600'>aditya praaksh Yadav</div>
+    <InterviewPractice/>
     </>
   )
 }
