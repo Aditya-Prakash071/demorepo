@@ -1,0 +1,81 @@
+Chome - v8 engine 
+Safari - apple   ka javascript engine
+firefox - monkey  
+
+Most popular engine   is v8 engine 
+
+Ryan Dahl  is the scientinst which coe the c++ engine with v8 engine   and create nodejs enviroment 
+
+Noe java script talk to native machine because c++ 
+
+You can create the web server with javasrcipt
+
+node js is runtime environment for v8 engine .
+
+nde js is open source and  cross platform javascript runtime environment.
+
+
+to setup the node js nodejs and download ..
+
+Go to nodejs.org 
+
+and we get LTS and Current 
+
+LTS is Long term support 
+
+Current is working and upadting version at the time but may be has some issue .
+
+even number of javadcript is long term support  approximately .
+
+
+node --version 
+
+npm --version 
+
+
+npm stands for node package manager 
+
+
+window is not defined in node js enviroment. 
+
+when we only require a file and  we console it if is availabe and empty then it give a empty object
+
+module.exports = add  this return which in this module reurn or have 
+
+
+to rename the funtion module.exports = {
+    addfn :add,
+    subfn :sub
+}
+
+
+The fs module enables interacting with the file system in a way  modeled on standard POSIX functions 
+To use promised based APIs 
+
+to write  or if the file not exit the it will create the file  file use the fs modlue writeFile and writeFileAsync 
+
+readFileSync return the value after read a file to enocde the buffer we use utf-8 
+
+redFile does'not  return the after read the file  the gives the callback function where we ca nget the data of particular file 
+
+
+To add data in the file use the append metohd of the fs module it also aync abd sync both 
+
+cpSync to copy a file 
+
+unlink to delete the file 
+
+to see the stats of file statssync 
+
+
+how node work 
+
+if we get any request then it iwll coem first envent and became a queue   after event queu it goes with event loop   use fifo principal 
+these are two type blocking and no blovking task means syn and sync   if this chec kthe process if this non blovcking operation then process it 
+
+blocking operation goes to the thread pool 
+
+thread pool is like pool of thread and thread are resposible to do the work orr precess of blocking opertations if workers are avilabel and then process the no blocking operattion 
+
+
+
